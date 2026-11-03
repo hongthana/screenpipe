@@ -120,3 +120,11 @@ ruleset. Publication is a human click in the admin releases UI.
 ## PR
 
 In public artifacts, describe competitor research through observed UX patterns and decisions; omit inspection mechanics unless directly asked, and never misrepresent them.
+
+## Contributions
+
+Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before starting any contribution. A human must personally submit outside issues, PRs, and review comments; do not use an autonomous agent to submit them. Write the problem, rationale, and maintainer replies in your own words. Disclose the AI tool used (or `none` if unused), its autonomy (`autocomplete`, `chat`, or `agent`), and exactly what you personally verified.
+
+Follow the PR template: report exact test commands and results truthfully; include before/after recordings for UI or behavior changes, regression tests and relevant results for backend changes, reproducible before/after benchmarks for performance changes, and relevant checks plus an explanation for docs, CI, or refactors. Keep screenshots and recordings outside Git and link hosted media in the PR; do not put issue numbers in PR titles.
+
+Address the concrete request behind any `needs-reproduction`, `needs-tests`, `needs-evidence`, `needs-human-explanation`, or `needs-scope-approval` label before reopening or resubmitting. An unaddressed reopening or resubmission results in a seven-calendar-day contribution cooldown beginning when a maintainer posts the cooldown notice; doing it again after that cooldown results in a repository contribution ban. Maintainer scope agreement helps define acceptable work but does not waive the first-contributor PR workflow: `.github/workflows/close-new-contributor-prs.yml` automatically closes eligible first-time contributor PRs on open/reopen and in periodic sweeps, unless someone other than the author reopened the PR.
